@@ -38,7 +38,7 @@ function Page() {
   return (
     <div>
       <Header name = {<input className='rounded-2xl w-[10rem] pl-2 pr-2 text-lg text-black' type='text' placeholder='Search' name='search' value={data} onChange={handleIn}></input>} />
-      <Slider name = {<button className='border border-white w-[4rem]'>Play</button>} />
+      <Slider name = {<button className='border border-white bg-white w-[4rem] rounded-xl'>Play</button>} />
       <Container name="Popular Movies" movies={popularmovies}/>
       <Container name="Upcoming Movies" movies={upcomingmovies} />
       <Container name="Top Rated" movies={toprated} />
