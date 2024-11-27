@@ -10,20 +10,20 @@ import {
   export const ServiceData = [
     {
       icon: RxCrop,
-      title: "Development",
-      content: "Lorem ipsum dolor sit /amet, consectetur adipiscing elit.",
+      title: "Iron man 3",
+      content: "This is the continuation of the iron man series, with a new villain encountering our hero",
       backgroundImage: "https://wallpapercave.com/wp/wp12529296.jpg",
     },
     {
       icon: RxPencil2,
-      title: "Branding",
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      title: "Interstellar",
+      content: "Welcome to the world of space, exploring new things in the space",
       backgroundImage: "https://1.bp.blogspot.com/-oPnRba5vNnM/VGVngIp_76I/AAAAAAAAHUo/AtSM6KxXl08/s1600/interstellar_banner.jpg",
     },
     {
       icon: RxDesktop,
-      title: "Design",
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      title: "Naruto",
+      content: "Continuation of the naruto shonen, with naruto grown up after training with jiraiya sensei.",
       backgroundImage: "https://3.bp.blogspot.com/-vgJO3di2Y3k/VrjnMTmKSrI/AAAAAAAAAWE/Dp21a_1HxnQ/s1600/ozelxt7pkeosup4zgtrc.jpg",
     },
     {
