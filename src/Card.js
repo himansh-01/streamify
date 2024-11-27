@@ -34,8 +34,8 @@ import {
     },
     {
       icon: RxAccessibility,
-      title: "Management",
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      title: "Stranger Things 4",
+      content: "The girl named eleven harbours super powers of mind fighting against the demons.",
       backgroundImage: "https://sm.ign.com/t/ign_ap/review/s/stranger-t/stranger-things-season-4-part-1-review_na7f.1200.jpg",
     },
     {
