@@ -23,13 +23,17 @@ function Container(props) {
       <Swiper
          breakpoints={{
           340: {
-            slidesPerView: 4,
+            slidesPerView: 3,
             spaceBetween: 15
           },
           700: {
-            slidesPerView: 7,
+            slidesPerView: 6,
             spaceBetween: 15
-          }
+          },
+           1000: {
+             slidesPerView: 7,
+             spaceBetween: 15
+           }
         }}
         cssMode={true}
         navigation={true}
