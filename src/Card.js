@@ -40,8 +40,8 @@ import {
     },
     {
       icon: RxRocket,
-      title: "Production",
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      title: "Conjuring 2",
+      content: "The scary nun takes control over the house as strange things start happening in the house",
       backgroundImage: "https://static.toiimg.com/thumb/msid-59158884,width-1200,height-900,resizemode-4/.jpg",
     },
   ];
