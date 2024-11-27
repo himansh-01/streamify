@@ -28,8 +28,8 @@ import {
     },
     {
       icon: RxReader,
-      title: "Seo",
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      title: "RRR",
+      content: "This is the moive of 2024, with oscar winning song",
       backgroundImage: "https://i.ytimg.com/vi/LywUZIiB43Q/maxresdefault.jpg",
     },
     {
