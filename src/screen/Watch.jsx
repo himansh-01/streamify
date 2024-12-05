@@ -60,7 +60,7 @@ function Watch() {
               <div key={com.id}>
                 <div className='flex justify-between'>
                   <h1>{com.person}</h1>
-                  <MdDelete onClick={handleDelete} />
+                  <MdDelete onClick={handleDelete} className="cursor-pointer" />
                 </div>
                 <p>{com.message}</p>
               </div>
