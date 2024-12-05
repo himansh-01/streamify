@@ -68,9 +68,9 @@ function Watch() {
           </div>
         </div>
       </div>
-      <div className='mt-[4.5rem] mr-[1rem] bg-[#6C34AF] w-[40%] p-8 flex flex-col gap-4'>
+      <div className='mt-[4.5rem] mr-[1rem] bg-[#6C34AF] w-[40%]'>
         <h1 className='text-2xl font-bold mb-4'>Recommended</h1>
-        <div className='flex flex-col'>{ServiceData.map((img) =>  
+        <div className='flex flex-col gap-4'>{ServiceData.map((img) =>  
             <div className='border border-black bg-cover bg-no-repeat h-[10rem] w-[15rem]' key={img.title} style={{backgroundImage: `URL(${img.backgroundImage})`}}>
             </div>
         )}</div>
