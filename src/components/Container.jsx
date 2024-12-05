@@ -58,8 +58,8 @@ function Container(props) {
                     </div>
                     <div className="text-[0.75rem] mb-[0.25rem]">{img ? img.overview.slice(0,118)+"..." : ""}</div>
                 </div>
-          </SwiperSlide>
-        </Link> 
+               </Link>
+        </SwiperSlide> 
 ))}
       </Swiper>
 
