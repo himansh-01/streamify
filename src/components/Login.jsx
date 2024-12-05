@@ -19,6 +19,17 @@ function Login() {
     })
   }
 
+    const showErr = (e) => {
+    if(formData.name == "" || formData.email == "" || formData.password == ""){
+      e.preventDefault()
+      alert("fill all the required fields")
+    }
+    else if(formData.password != formData.confirm_password ){
+      e.preventDefault()
+      alert("password do not match")
+    }
+  }
+
   return (
     <div className='w-[100%] h-screen bg-[url(https://img.freepik.com/free-vector/cinema-time-background_23-2147593530.jpg?ga=GA1.1.166255932.1719310287&semt=ais_hybrid)]'>
         <div className='absolute left-[28%] top-[15%] rounded-xl w-[40%] h-[35rem] shadow-2xl pt-12 pb-12 pl-20 pr-20 bg-[#854CCA]'>
@@ -36,7 +47,7 @@ function Login() {
           <input className='h-[2rem] text-xl rounded-2xl pl-4 pr-4 mb-4 focus:outline-none text-black' type='password' placeholder='Confirm-password' id='confirm-password' name='confirm_password' value={formData.confirm_password} onChange={handleInput} required></input>
         </div>
       <div className='flex pl-8 justify-between w-[90%] items-center mt-8'>
-        <Link to="/home"><button className='rounded-2xl px-2 bg-white h-[2rem] text-xl text-black'>Sign up</button></Link>
+        <Link to="/home" onClick={showErr}><button className='rounded-2xl px-2 bg-white h-[2rem] text-xl text-black'>Sign up</button></Link>
         <Link to="/"><button className='rounded-2xl px-2 bg-white h-[2rem] text-xl text-black'>Back</button></Link>
       </div>
       </div>
