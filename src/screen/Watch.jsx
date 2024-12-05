@@ -56,7 +56,7 @@ function Watch() {
             <h1 className='text-2xl'>Comments</h1>
             <input type='comment' placeholder='Add comment' className='bg-transparent focus:outline-none'></input>
             <div className='border border-white w-full mt-1'></div>
-            <div>{comment.map((com) =>{
+            <div>{comment.map((com) =>
               <div key={com.id}>
                 <div className='flex justify-between'>
                   <h1>{com.person}</h1>
@@ -64,7 +64,7 @@ function Watch() {
                 </div>
                 <p>{com.message}</p>
               </div>
-            })}</div>
+            )}</div>
           </div>
         </div>
       </div>
