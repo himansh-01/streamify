@@ -55,6 +55,7 @@ function Watch() {
           <div className='p-4 bg-[#6C34AF] rounded-xl'>
             <h1 className='text-2xl'>Comments</h1>
             <input type='comment' placeholder='Add comment' className='bg-transparent focus:outline-none'></input>
+            <button className='text-black bg-white rounded-md w-12 flex self-end'>Post</button>  
             <div className='border border-white w-full mt-1'></div>
             <div>{comment.map((com) =>
               <div key={com.id}>
