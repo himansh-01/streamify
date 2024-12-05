@@ -47,8 +47,8 @@ function Container(props) {
             </SkeletonTheme>
         </div>
         :
-        <Link to={`/movie/${img.id}`} style={{textDecoration:"none", color:"white"}}>
           <SwiperSlide className='w-[15%] h-[18.75rem] inline-block relative m-[0.19rem] cursor-pointer card' key={img.id}>
+             <Link to={`/movie/${img.id}`} style={{textDecoration:"none", color:"white"}}>
             <img className="h-[95%] w-[100%]" src={`https://image.tmdb.org/t/p/original${img?img.poster_path:""}`} />
                 <div className="absolute pt-0 pl-4 pr-4 pb-4 bottom-0 h-[290px] flex flex-col w-[85%] justify-end card_overlay text-white">
                     <div className="font-[900] text-lg mb-[0.4rem]">{img?img.original_title:""}</div>
