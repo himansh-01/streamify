@@ -31,8 +31,8 @@ function Login() {
   }
 
   return (
-    <div className='w-[100%] h-screen bg-[url(https://img.freepik.com/free-vector/cinema-time-background_23-2147593530.jpg?ga=GA1.1.166255932.1719310287&semt=ais_hybrid)]'>
-        <div className='absolute left-[28%] top-[15%] rounded-xl w-[40%] h-[35rem] shadow-2xl pt-12 pb-12 pl-20 pr-20 bg-[#854CCA]'>
+    <div className='w-[100%] h-screen flex items-center justify-center bg-[url(https://img.freepik.com/free-vector/cinema-time-background_23-2147593530.jpg?ga=GA1.1.166255932.1719310287&semt=ais_hybrid)]'>
+        <div className=' rounded-xl w-[40%] h-[35rem] shadow-2xl pt-12 pb-12 pl-20 pr-20 bg-[#854CCA]'>
           <div className='flex justify-between items-center mb-12'>
           <h1 className='text-[3rem]'>Register</h1>
           </div>
