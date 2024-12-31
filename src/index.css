@@ -115,3 +115,22 @@
   margin: 2rem 0;
   flex: 0.8;
 }
+
+@media (min-width: 300px) and  (max-width:750px){
+  .hero{
+    display: grid;
+    place-items: center;
+  }
+
+  .hero div{
+    width: 90%;
+    margin-right: 0;
+  }
+  
+  .hero-reverse{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    margin-top: 4rem;
+    justify-content: center;
+  }
+}
